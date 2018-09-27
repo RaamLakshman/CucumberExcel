@@ -37,6 +37,7 @@ public class GoogleSearch extends PageObject{
     public void printURL(){
     	System.out.println(PrintLinks.size());
     	System.out.println("URL List:");
+    	System.out.println("URL List:");
     	for(WebElement loop : PrintLinks){
     		System.out.println(loop.getText());
     	}
