@@ -44,6 +44,7 @@ public class stepDefination extends POM{
 	public void click_on_Submit() throws Throwable {
 		//facebook.click_Login();
 		driver.findElement(By.id("loginbutton")).click();
+		driver.close();
 	   
 	}
 
