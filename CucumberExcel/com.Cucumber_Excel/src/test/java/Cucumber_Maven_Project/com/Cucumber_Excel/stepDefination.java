@@ -45,6 +45,7 @@ public class stepDefination extends POM{
 		//facebook.click_Login();
 		driver.findElement(By.id("loginbutton")).click();
 		driver.close();
+		System.out.println("Successfully logout");
 	   
 	}
 
